@@ -32,6 +32,7 @@ body {
   line-height: 1.5;
   color: $color-dark;
   overflow-x: hidden;
+  background-color: $color-light-gray;
 }
 
 a {
@@ -95,9 +96,9 @@ img {
   padding: 2rem 0;
   z-index: 1000;
   transition: all 0.3s ease;
+  background-color: $color-primary;
   
   &.scrolled {
-    background-color: $color-primary;
     padding: 1rem 0;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   }
@@ -124,6 +125,7 @@ img {
     flex-direction: column;
     gap: 0.6rem;
     cursor: pointer;
+    z-index: 1001;
     
     span {
       display: block;
@@ -154,23 +156,33 @@ img {
     
     @media (max-width: $breakpoint-lg) {
       position: fixed;
-      top: 7rem;
-      left: 0;
-      width: 100%;
-      padding: 2rem;
+      top: 0;
+      right: -100%;
+      width: 70%;
+      height: 100vh;
+      padding: 8rem 2rem 2rem;
       background-color: $color-primary;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       gap: 1.5rem;
-      transform: translateY(-100%);
-      opacity: 0;
-      visibility: hidden;
       transition: all 0.3s ease;
       
       &.active {
-        transform: translateY(0);
-        opacity: 1;
-        visibility: visible;
+        right: 0;
+      }
+      
+      li {
+        width: 100%;
+        
+        a {
+          display: block;
+          padding: 1rem;
+          font-size: 1.8rem;
+          
+          &:hover {
+            background-color: rgba($color-secondary, 0.1);
+          }
+        }
       }
     }
   }
