@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan Pablo Alzate | Futbolista</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="/src/scss/main.scss">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar__logo">JPA<span>#23</span></div>
+      <div class="navbar__toggle" id="navbar-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="navbar__menu" id="navbar-menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#trayectoria">Trayectoria</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header/Hero -->
+  <header class="hero" id="inicio">
+    <div class="hero__overlay"></div>
+    <div class="container">
+      <div class="hero__content" data-aos="fade-up">
+        <h1 class="hero__title">JUAN PABLO <span>ALZATE</span></h1>
+        <div class="hero__number">#23</div>
+        <p class="hero__subtitle">Mediocampista • Bogotá, Colombia</p>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <a href="#sobre-mi">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="section section--about" id="sobre-mi">
+    <div class="container">
+      <div class="section__header" data-aos="fade-up">
+        <h2 class="section__title">Sobre Mí</h2>
+        <div class="section__line"></div>
+      </div>
+      
+      <div class="about">
+        <div class="about__image" data-aos="fade-right">
+          <div class="about__image-container">
+            <img src="https://images.pexels.com/photos/3641352/pexels-photo-3641352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Juan Pablo Alzate">
+          </div>
+        </div>
+        <div class="about__content" data-aos="fade-left">
+          <h3>¡Hola! Soy Juan Pablo</h3>
+          <p>Tengo 17 años, nací en Bogotá, Colombia y soy mediocampista creativo y de recuperación. Mi pasión es crear juego y ser el enlace entre defensa y ataque.</p>
+          <div class="about__stats">
+            <div class="about__stat">
+              <span class="about__stat-number">8</span>
+              <span class="about__stat-label">Torneos Ganados</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-number">2</span>
+              <span class="about__stat-label">Veces Goleador</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-number">17</span>
+              <span class="about__stat-label">Años de Edad</span>
+            </div>
+          </div>
+          <p>Mi objetivo es desarrollarme como jugador profesional, aportando mi visión táctica y capacidad técnica al más alto nivel. Trabajo cada día para mejorar mis habilidades y contribuir al éxito de mi equipo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Career Section -->
+  <section class="section section--career" id="trayectoria">
+    <div class="container">
+      <div class="section__header" data-aos="fade-up">
+        <h2 class="section__title">Trayectoria</h2>
+        <div class="section__line"></div>
+      </div>
+      
+      <div class="timeline">
+        <div class="timeline__item" data-aos="fade-up">
+          <div class="timeline__content">
+            <div class="timeline__year">2025 - Presente</div>
+            <h3 class="timeline__title">Quilmes</h3>
+            <p class="timeline__subtitle">Equipo Principal • Bogotá, Colombia</p>
+            <p class="timeline__desc">Integración al equipo principal, destacando por mi visión de juego y capacidad de recuperación en el mediocampo. Participación activa en torneos nacionales.</p>
+          </div>
+        </div>
+        
+        <div class="timeline__item" data-aos="fade-up" data-aos-delay="100">
+          <div class="timeline__content">
+            <div class="timeline__year">2023 - 2024</div>
+            <h3 class="timeline__title">Vélez Sarsfield</h3>
+            <p class="timeline__subtitle">División Juvenil • Bogotá, Colombia</p>
+            <p class="timeline__desc">Desarrollo integral en la división juvenil, perfeccionando habilidades tácticas y técnicas. Participación destacada en torneos regionales y nacionales.</p>
+          </div>
+        </div>
+        
+        <div class="timeline__item" data-aos="fade-up" data-aos-delay="200">
+          <div class="timeline__content">
+            <div class="timeline__year">2017 - 2022</div>
+            <h3 class="timeline__title">Formación Alemana</h3>
+            <p class="timeline__subtitle">Bogotá, Colombia</p>
+            <p class="timeline__desc">Formación inicial con metodología europea, estableciendo sólidos fundamentos técnicos y tácticos. Base fundamental para mi desarrollo como mediocampista.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section section--skills" id="habilidades">
+    <div class="container">
+      <div class="section__header" data-aos="fade-up">
+        <h2 class="section__title">Habilidades y Atributos</h2>
+        <div class="section__line"></div>
+      </div>
+      
+      <div class="skills">
+        <div class="skills__item" data-aos="zoom-in">
+          <div class="skills__icon">
+            <i class="fas fa-eye"></i>
+          </div>
+          <h3 class="skills__title">Visión de Juego</h3>
+          <p class="skills__desc">Capacidad para anticipar jugadas y encontrar espacios</p>
+        </div>
+        
+        <div class="skills__item" data-aos="zoom-in" data-aos-delay="100">
+          <div class="skills__icon">
+            <i class="fas fa-bullseye"></i>
+          </div>
+          <h3 class="skills__title">Precisión en los Pases</h3>
+          <p class="skills__desc">Exactitud en pases cortos y largos bajo presión</p>
+        </div>
+        
+        <div class="skills__item" data-aos="zoom-in" data-aos-delay="200">
+          <div class="skills__icon">
+            <i class="fas fa-chess"></i>
+          </div>
+          <h3 class="skills__title">Inteligencia Táctica</h3>
+          <p class="skills__desc">Comprensión del juego y adaptación a diferentes sistemas</p>
+        </div>
+        
+        <div class="skills__item" data-aos="zoom-in" data-aos-delay="300">
+          <div class="skills__icon">
+            <i class="fas fa-running"></i>
+          </div>
+          <h3 class="skills__title">Resistencia Física</h3>
+          <p class="skills__desc">Capacidad para mantener el ritmo durante todo el partido</p>
+        </div>
+        
+        <div class="skills__item" data-aos="zoom-in" data-aos-delay="400">
+          <div class="skills__icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3 class="skills__title">Recuperación del Balón</h3>
+          <p class="skills__desc">Habilidad para interceptar y recuperar posesión</p>
+        </div>
+        
+        <div class="skills__item" data-aos="zoom-in" data-aos-delay="500">
+          <div class="skills__icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 class="skills__title">Liderazgo Silencioso</h3>
+          <p class="skills__desc">Capacidad de influir positivamente en el equipo</p>
+        </div>
+        
+        <div class="skills__item" data-aos="zoom-in" data-aos-delay="600">
+          <div class="skills__icon">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h3 class="skills__title">Toma de Decisiones Rápida</h3>
+          <p class="skills__desc">Resolución eficaz bajo presión en momentos clave</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section section--gallery" id="galeria">
+    <div class="container">
+      <div class="section__header" data-aos="fade-up">
+        <h2 class="section__title">Galería</h2>
+        <div class="section__line"></div>
+      </div>
+      
+      <div class="gallery">
+        <div class="gallery__item" data-aos="fade-up">
+          <img src="https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Juan Pablo en acción">
+        </div>
+        <div class="gallery__item" data-aos="fade-up" data-aos-delay="100">
+          <img src="https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Jugada destacada">
+        </div>
+        <div class="gallery__item" data-aos="fade-up" data-aos-delay="200">
+          <img src="https://images.pexels.com/photos/3148452/pexels-photo-3148452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Entrenamiento">
+        </div>
+        <div class="gallery__item" data-aos="fade-up">
+          <img src="https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Torneo regional">
+        </div>
+        <div class="gallery__item" data-aos="fade-up" data-aos-delay="100">
+          <img src="https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Celebración de gol">
+        </div>
+        <div class="gallery__item" data-aos="fade-up" data-aos-delay="200">
+          <img src="https://images.pexels.com/photos/918798/pexels-photo-918798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Trabajo en equipo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section section--testimonials" id="testimonios">
+    <div class="container">
+      <div class="section__header" data-aos="fade-up">
+        <h2 class="section__title">Lo Que Dicen de Mí</h2>
+        <div class="section__line"></div>
+      </div>
+      
+      <div class="testimonials">
+        <div class="testimonial" data-aos="fade-up">
+          <div class="testimonial__rating">⭐</div>
+          <div class="testimonial__content">
+            <p>"El crecimiento de Juan Pablo en estos últimos dos años ha sido impresionante. Su capacidad técnica, compromiso y visión dentro del campo lo convierten en un jugador clave. Está preparado para dar el siguiente gran paso."</p>
+          </div>
+          <div class="testimonial__author">
+            <div class="testimonial__name">Antonio García</div>
+            <div class="testimonial__position">Director de Academia</div>
+          </div>
+        </div>
+        
+        <div class="testimonial" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial__rating">⭐</div>
+          <div class="testimonial__content">
+            <p>"Juan Pablo tiene una mentalidad ganadora. Su constancia en los entrenamientos, su liderazgo silencioso y su inteligencia táctica hacen que marque la diferencia en cada partido."</p>
+          </div>
+          <div class="testimonial__author">
+            <div class="testimonial__name">Marcelo Ruiz</div>
+            <div class="testimonial__position">Entrenador Principal</div>
+          </div>
+        </div>
+        
+        <div class="testimonial" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial__rating">⭐</div>
+          <div class="testimonial__content">
+            <p>"Lo que más destaca de Juan Pablo es su madurez para tomar decisiones bajo presión. Siempre busca aprender, escucha consejos y trabaja con humildad. Tiene todo para llegar lejos."</p>
+          </div>
+          <div class="testimonial__author">
+            <div class="testimonial__name">Claudia Fernández</div>
+            <div class="testimonial__position">Preparadora Física</div>
+          </div>
+        </div>
+        
+        <div class="testimonial" data-aos="fade-up" data-aos-delay="300">
+          <div class="testimonial__rating">⭐</div>
+          <div class="testimonial__content">
+            <p>"Desde que llegó a la academia ha sido un ejemplo. Su disciplina, respeto y pasión por mejorar inspiran al resto del equipo. Juan Pablo es sin duda un talento en ascenso."</p>
+          </div>
+          <div class="testimonial__author">
+            <div class="testimonial__name">Luis Ortega</div>
+            <div class="testimonial__position">Captador de Talentos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section--contact" id="contacto">
+    <div class="container">
+      <div class="section__header" data-aos="fade-up">
+        <h2 class="section__title">Contacto</h2>
+        <div class="section__line"></div>
+      </div>
+      
+      <div class="contact">
+        <div class="contact__content" data-aos="fade-up">
+          <h3>¿Interesado en mi perfil?</h3>
+          <p>Si estás interesado en conocer más sobre mi perfil futbolístico, no dudes en contactarme a través de WhatsApp. Estaré encantado de responder a tus preguntas.</p>
+          <a href="https://wa.me/573134015927?text=Hola,%20estoy%20interesado%20en%20conocer%20más%20sobre%20Juan%20Pablo%20Alzate" class="btn btn--whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__logo">
+          JPA<span>#23</span>
+        </div>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="footer__social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="footer__social-link"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="footer__copyright">
+          &copy; 2025 - Juan Pablo Alzate. Todos los derechos reservados.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
