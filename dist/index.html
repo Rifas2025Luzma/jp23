@@ -9,11 +9,43 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <base href="/jp23/">
   <script type="module" crossorigin src="/jp23/assets/main-CZ2Z1idG.js"></script>
   <link rel="stylesheet" crossorigin href="/jp23/assets/main-bT94bJl2.css">
 </head>
 <body>
-  <!-- El resto del contenido HTML permanece igual -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="navbar__logo">JPA<span>23</span></a>
+      <div id="navbar-toggle" class="navbar__toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul id="navbar-menu" class="navbar__menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#trayectoria">Trayectoria</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="inicio" class="hero">
+    <div class="hero__overlay"></div>
+    <div class="container">
+      <div class="hero__content" data-aos="fade-right">
+        <h1 class="hero__title">Juan Pablo <span>Alzate</span></h1>
+        <p class="hero__subtitle">Futbolista Profesional</p>
+      </div>
+      <div class="hero__number" data-aos="fade-left">23</div>
+    </div>
+    <div class="hero__scroll">
+      <a href="#sobre-mi"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </section>
+
 </body>
 </html>
