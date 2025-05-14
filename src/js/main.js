@@ -1,4 +1,4 @@
-import AOS from '/node_modules/aos';
+import AOS from 'aos';
 
 // Initialize AOS animation library
 AOS.init({
