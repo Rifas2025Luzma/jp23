@@ -1,4 +1,4 @@
-import AOS from 'aos';
+import * as AOS from 'aos';
 
 // Initialize AOS animation library
 AOS.init({
